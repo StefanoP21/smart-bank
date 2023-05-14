@@ -8,8 +8,6 @@ import { temaClaro, temaOscuro } from "./Components/UI/temas";
 import { BtnTema } from "./Components/UI";
 import SwitcherTema from "./Components/SwitcherTema";
 
-console.log(temaClaro, temaOscuro);
-
 function App() {
     const [tema, setTema] = useState(true);
 
